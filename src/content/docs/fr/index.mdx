@@ -1,0 +1,32 @@
+---
+title: Compass 🧭
+description: The Semisto Field Guide
+template: splash
+hero:
+  tagline: Your central hub for all Semisto knowledge — from field protocols to admin templates.
+  actions:
+    - text: Get Started
+      link: /compass/welcome/
+      icon: right-arrow
+      variant: primary
+    - text: Browse on GitHub
+      link: https://github.com/semisto-org/compass
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+  <Card title="🛠️ Tools" icon="setting">
+    Guides for Terranova, Slack, and daily workflows.
+  </Card>
+  <Card title="🌿 Field Work" icon="document">
+    Planting, monitoring, and harvesting protocols.
+  </Card>
+  <Card title="🎓 Academy" icon="open-book">
+    Training organisation and checklists.
+  </Card>
+  <Card title="🌱 Nursery" icon="leaf">
+    Species sheets, calendars, and propagation.
+  </Card>
+</CardGrid>
